@@ -1,0 +1,22 @@
+#body{
+    background-image: url(/images/smoky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#all {
+    margin: 130px 400px;
+}
+#login{
+    margin: 30px ;
+   background-color: lightblue;
+    border-radius: 20%;
+    margin-left: 125px;
+}
+#email{
+    width: 200px;
+    height: 15px;
+}
+#password{
+    width: 200px;
+    height: 15px;
+}
