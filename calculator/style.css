@@ -1,0 +1,122 @@
+#body{
+    border: 2px solid lavender;
+    height: 280px;
+    width: 170px;
+    border-radius: 25%;
+    margin: auto;
+    background: linear-gradient(to right,lavender,  grey);
+}
+#topspace{
+    border: 2px solid lightsteelblue;
+    height: 30px;
+    width: 80px;
+    border-radius: 20%;
+    margin-top: 13px;
+    margin-left: 70px;
+    background-color: linen;
+}
+#cal{
+    margin-left: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: cornsilk;
+}
+#screen{
+    border: 2px solid lavender;
+    margin-left: -2.5px;
+    height: 50px;
+    width: 173px;
+    background: linear-gradient(to right, rgba(64, 99, 122, 0.849), rgb(18, 41, 173));
+    border-radius: 25%;
+}
+#on{
+    border-radius: 50%;
+  background-color: lavender;
+  transition-duration: 0.4s;
+  width: 40px;
+}
+#on:hover{
+    background-color: lightblue;
+    color: lightslategrey;
+}
+#eight{
+    border-radius: 50%;
+  background-color: lavender;
+  transition-duration: 0.4s; 
+  width: 40px;
+}
+#eight:hover{
+    background-color: lightblue;
+    color: lightslategrey;
+}
+#nine{
+    border-radius: 50%;
+  background-color: lavender;
+  transition-duration: 0.4s; 
+  width: 35px;
+}
+#nine:hover{
+    background-color: lightblue;
+    color: lightslategrey;
+}
+#del{
+    border-radius: 50%;
+  background-color: lavender;
+  transition-duration: 0.4s; 
+  width: 40px;
+  height: 20px;
+
+}
+#del:hover{
+    background-color: lightblue;
+    color: lightslategrey;
+}
+#first{
+    margin-top: 10px;
+}
+#on1{
+    border-radius: 50%;
+  background-color: lavender;
+  transition-duration: 0.4s;
+  width: 32px;
+}
+#on1:hover{
+    background-color: lightblue;
+    color: lightslategrey;
+}
+#eight1{
+    border-radius: 50%;
+  background-color: lavender;
+  transition-duration: 0.4s; 
+  width: 32px;
+}
+#eight1:hover{
+    background-color: lightblue;
+    color: lightslategrey;
+}
+#nine1{
+    border-radius: 50%;
+  background-color: lavender;
+  transition-duration: 0.4s; 
+  width: 33px;
+}
+#nine1:hover{
+    background-color: lightblue;
+    color: lightslategrey;
+}
+#del1{
+    border-radius: 50%;
+  background-color: lavender;
+  transition-duration: 0.4s; 
+  width: 35px;
+  height: 20px;
+
+}
+#del1:hover{
+    background-color: lightblue;
+    color: lightslategrey;
+}
+#forth{
+    margin-top: -7px;
+    margin-left: 10px;
+}
