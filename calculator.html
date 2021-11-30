@@ -13,7 +13,10 @@
     <!-- <input type="text" placeholder="enter thirdvalue" id="var1">
     <input type="text" placeholder="enter forthvalue" id="var2"> -->
     <button onclick="subtractvalues()">-</button>
-    <script>
+     <button onclick="multiplyvalues()">*</button>
+     <button onclick="dividevalues()">/</button>
+     <button onclick="reset()">RESET</button>
+   <script>
         function addvalues() {
          var firstvalue = Number( var1.value);
           var secondvalue = Number(var2.value) ;
@@ -24,7 +27,16 @@
             var secondvalue = Number( var2.value);
             alert(firstvalue - secondvalue);
         }
-
+        function dividevalues() {
+            var firstvalue = Number( var1.value);
+            var secondvalue = Number( var2.value);
+            alert(firstvalue / secondvalue);
+        }
+        function multiplyvalues() {
+            var firstvalue = Number( var1.value);
+            var secondvalue = Number( var2.value);
+            alert(firstvalue * secondvalue);
+        }
     </script>
 </body>
 </html>

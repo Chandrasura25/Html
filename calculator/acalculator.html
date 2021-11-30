@@ -11,37 +11,56 @@
     <section id="body">
        <div>
            <label for="button" id="cal">Cal</label>
-           <input type="time" name="" id="topspace">
+           <input type="time" name="" id="time"onclick="getTime()">
+          
        </div>
        <div>
-           <table id="screen">
-               <tr></tr>
-           </table>
+           <input type="text" id="result" class="screen" disabled>
        </div>
        <div id="first">
-           <button id="on">7</button>
-           <button id="eight">8</button>
-           <button id="nine">9</button>
-           <button id="del">DEL</button>
+           <button onclick="butt(7)"  id="seven">7</button>
+           <button onclick="butt(8)"  id="eight">8</button>
+           <button onclick="butt(9)" id="nine">9</button>
+           <button onclick="('-')"  id="minus">-</button>
        </div><br>
        <div id="second">
-        <button id="on">4</button>
-        <button id="eight">5</button>
-        <button id="nine">6</button>
-        <button id="del">/</button>
+        <button onclick="butt(4)"   id="four">4</button>
+        <button onclick="butt(5)"  id="five">5</button>
+        <button onclick="butt(6)"   id="six">6</button>
+        <button onclick="butt('/')"  id="divide" >/</button>
     </div><br>
     <div id="third">
-        <button id="on">1</button>
-        <button id="eight">2</button>
-        <button id="nine">3</button>
-        <button id="del">*</button>
+        <button onclick="butt(1)" id="one">1</button>
+        <button onclick="butt(2)"  id="two">2</button>
+        <button onclick="butt(3)"   id="three">3</button>
+        <button onclick="butt('*')"   id="multiply">*</button>
     </div><br>
     <div id="forth">
-        <button id="on1">.</button>
-        <button id="eight1">0</button>
-        <button id="nine1">=</button>
-        <button id="del1">+</button>
-    </div><br>
+        <button onclick="butt('.')"   id="dot">.</button>
+        <button  onclick="butt(0)"  id="zero">0</button>
+        <button onclick="ss()"  id="equal">=</button>
+        <button onclick="butt('+')"  id="add">+</button>
+    </div><br>  
+    <div id="de">
+        <button onclick="del(del)"  id="del" >DEL</button>
+        <button onclick="butt('%')"  id="percent">%</button>
+        <button onclick="mm()" id="double">C</button>
+    </div>
     </section>
+    <script>
+        function butt(func){
+            result.value += func;
+        }
+        function del() {
+            let del = result.value;
+            result.value =  del.slice(0,-1);
+        }
+        function mm() {
+            result.value = " ";
+        }
+        function  ss() {
+            result.value = eval(result.value);
+        }
+    </script>
 </body>
 </html>

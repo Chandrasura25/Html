@@ -1,7 +1,21 @@
+button{
+    border-radius: 100%;
+    color: blue;
+    margin-top: 5px;
+    margin-left: 3px;
+    /* webkit-transition-duration: 0.4s;  */
+    transition-duration: 0.4s;
+    padding: 3px;
+}
+button:hover{
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+ }
 #main {
     border: 3px solid blue;
     height: 600px;
-    width: 270px;
+    width: 280px;
     margin: auto ;
     border-radius: 20% 20% 30% 30%;
     background-color: dodgerblue;
@@ -13,13 +27,13 @@
 }
 #toprow{
     border: 2px solid brown;
-    height: 37px;
+    height: 40px;
     width: 110px;
     margin-top: -40px;
     margin-left: 119px;
     background-color: brown;
 }
-#screen{
+.screen{
     border: 2px solid dodgerblue;
     height: 120px;
     width: 250px;
@@ -28,41 +42,20 @@
     margin-top: 10px;
     border-radius: 25%;
 }
-#shift{
-    border-radius: 100%;
-    color: blue;
-    margin-top: 5px;
-    margin-left: 3px;
-    /* webkit-transition-duration: 0.4s;  */
-    transition-duration: 0.4s;
-}
-#shift:hover {
-    background-color: #008CBA;
-    color: white;
-} 
-#alpha{
-    border-radius: 100%;
-    color: blue;
-    margin-top: 5px;
-    margin-left: 3px;
-    /* webkit-transition-duration: 0.4s;  */
-    transition-duration: 0.4s;
-}
-#alpha:hover {
-    background-color: #008CBA;
-    color: white;
-} 
 #replay{
     border-radius: 50%;
     color: blue;
     height: 75px;
-    width: 50px;
-    margin-top: -23px;
-    margin-left: 100px;
+    width: 70px;
+    margin-top: -32px;
+    margin-left: 110px;
     /* webkit-transition-duration: 0.4s;  */
     transition-duration: 0.4s;
 }
 #replay:hover {
     background-color: #008CBA;
     color: white;
+}
+#mode{
+    margin-top: -50px;
 } 
